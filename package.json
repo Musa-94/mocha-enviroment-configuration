@@ -1,0 +1,37 @@
+{
+  "name": "mocha-environment-configuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./**/tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musa-94/mocha-enviroment-configuration.git"
+  },
+  "keywords": [
+    "mocha",
+    "configuration"
+  ],
+  "author": "Musa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Musa-94/mocha-enviroment-configuration/issues"
+  },
+  "homepage": "https://github.com/Musa-94/mocha-enviroment-configuration#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel": "^6.23.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/proposal-class-properties"
+    ]
+  }
+}
